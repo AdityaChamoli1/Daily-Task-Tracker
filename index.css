@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2, h3 {
+  text-align: center;
+}
+.section {
+  margin: 30px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+.progress-bar {
+  height: 20px;
+  background: #eee;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  width: 0%;
+}
+.disabled {
+  color: #aaa;
+}
